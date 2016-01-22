@@ -1,6 +1,9 @@
 language: php
 php:
-  - 5.5
-  - 5.4
-  - hhvm
+- 5.5
+- 5.4
+- hhvm
 script: phpunit Test.php
+notifications:
+  slack:
+    secure: ZRUdkXMAzFpZ5htohJTH+2q5/6LkxTNdsx4Mwj2MAjofA2/fnfr9IGNCsagwGq06dUeHBCfYxhr+kP/nN/HFI2xg7g9AOWG0Hr3frhO/xqqkT2CPCxqUjII4Te1cDI/PRaeoQ54xImWp6Wk9DLxt0YH4S0LotM5hgvvq3R09AodgS8HIi54/OBwxplXaLmGuJ3wl1WrAZZgZeSYtf0pd/vYBuvX884AtlxE5UebAUZ4sCRzoPvCT83AydyldfAUlJcpv6BFfZnLK5hxlCqbVDJ+4jPUIP//eu+WFE2sQbrMrIoqMjfcnO7FnkO6vD6VjlxtqoQYLB7lFyOadFbc5gNL55O3CeTbx6DLFvJesxY4xf+3PQdNFrZwHF7oQQaCwjQ/RK8KrqCmaH7W2RaFu9m1MkF6Idh7hIp3yJqlRhinRgHivYJ0JE459yzkJBmp0bkEXAuMEU1Dyn4HaQ1Hu8612oEP6WUqd/voXhSlvE5+g4p1NTOYV6KjQxTUn7PBPFEOfb8z/sMVWav0/BpmAWGcKiI/kBcl7oOqO18Z767tSUmErEpPcKGjMFlAuaJup09NkZRN+qNPDCv3PjdCsL4DOuWoUpLcRs3VFBCY1i/QrXWHLj5ZGOVjhuA79FdpnKbN4sipt2+tvOy3ddRiNKBoWlrPEKsXAZb1ZJweaMmI=
